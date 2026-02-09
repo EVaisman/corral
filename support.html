@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Corral Support</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="container nav">
+      <a class="brand" href="/">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brand-name">Corral</span>
+      </a>
+      <nav class="links">
+        <a href="/#how">How it works</a>
+        <a href="/#features">Features</a>
+        <a href="/privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2>Support</h2>
+      <p class="subhead" style="max-width:70ch">
+        Need help, have feedback, or want to request a feature? Email us and include your iOS version and device model.
+      </p>
+
+      <div class="feature" style="margin-top:14px">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:support@corralus.com">support@corralus.com</a></p>
+      </div>
+
+      <div class="feature" style="margin-top:14px">
+        <h3>FAQ</h3>
+        <p><b>Can Corral download YouTube videos?</b><br/>
+        No. Corral respects platform rules and does not bypass restrictions. YouTube links can be saved and opened in YouTube.</p>
+
+        <p style="margin-top:10px"><b>What can be played offline?</b><br/>
+        Offline playback is available only for supported sources (for example: podcasts via RSS and direct media files).</p>
+
+        <p style="margin-top:10px"><b>Does Corral require an account?</b><br/>
+        No. Corral is local-first and works without sign-in.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container foot">
+      <div class="brandline">
+        <span class="mark small" aria-hidden="true"></span>
+        <span>© <span id="y"></span> Corral</span>
+      </div>
+      <div class="footlinks">
+        <a href="/">Home</a>
+        <a href="/privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
